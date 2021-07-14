@@ -1,0 +1,139 @@
+.logo{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 2rem;
+}
+.img-fluid {
+    height: 7rem;
+}
+
+.merch {
+  
+    height:30rem;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.studio1  {
+height: 33rem;
+float: left;
+
+}
+.studio2 {
+    height: 23rem;
+    float: right;
+}
+
+
+:root{
+    --black:black;
+    --white:white;
+    --yellow: black;
+}
+
+.text{
+    text-align: justify;
+    
+}
+.shop {
+    height: 27rem;
+
+}
+.mana{
+height: 23rem;
+}
+body {
+    background: var(--white);
+    font-family: 'Walkway';
+    color: var(--black);
+    font-size: 1.2rem;
+}
+/*******************
+TITRES
+*******************/
+h1{
+    font-family: 'Kolo LP Std';
+    font-size: 160%;
+    color: var(--yellow);
+    letter-spacing: 1rem;
+}
+h2 {
+    font-size: 140%;
+}
+
+h2 span {
+    font-family: 'Kolo LP Std';
+    font-size: 90%;
+    color: var(--yellow);
+    text-transform: uppercase;
+}
+
+/*******************
+HAUT
+*******************/
+header {
+    /* background-image: url(../images/carousel/restaurant-italien-aix-en-provence-mammacarmela.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background: url(../images/PHOTO-2021-07-13-14-46-49.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/*******************
+NAVIGATION
+*******************/
+.navbar-nav {
+    font-family: 'Kolo LP Std';
+    font-size: 120%;
+}
+.navbar-nav .nav-link {
+    margin: 0 1rem;
+}
+/*******************
+BOUTONS
+*******************/
+.btn-primary {
+    color: var(--black);
+    background-color:var(--yellow);
+    border-color: var(--yellow);
+  }
+  
+  .btn-primary:hover {
+    color: var(--yellow);
+    background-color:var(--black);
+    border-color: var(--yellow);
+  }
+/*******************
+BANNIERES
+*******************/
+.banner {
+    background:url("../images/kymiaecrit.PNG") center no-repeat;
+    background-size: 23rem;
+    height: 10vh;
+}
+
+/*******************
+PIED DE PAGE
+*******************/
+footer{
+    border-top: 1px solid var(--white);
+}
+
+/* le carrousel */
+.carousel-inner{
+height: 30rem;
+}
+.carousel-item{
+    height: 100rem;
+}
+
+.agenda{
+    height: 33rem;
+    width: 33rem;
+}
